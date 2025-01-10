@@ -1,0 +1,1 @@
+fn main() {    let mut vec = Vec::new();    vec.push(1);    vec.push(2);    vec.push(3);    let fourth = vec.get(3); // this will return None, not a panic    println(fourth); //This will print None}
