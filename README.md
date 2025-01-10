@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle issue in Rust when working with vectors: accessing elements outside the vector's bounds.  The code in `bug.rs` shows how to safely access vector elements without causing a panic. The solution shows how to handle the None case more gracefully.
